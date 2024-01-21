@@ -1,15 +1,15 @@
 ## Getting Started
 
-First, run the server:
+First install the dependencies:
+
+```bash
+npm i
+```
+
+Then, run the server:
 
 ```bash
 npm run server
-```
-
-## Create with:
-
-```bash
-npm i json-server
 ```
 
 Create your andpoint in db.json. Here is an example:
