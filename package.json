@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "server": "json-server -w db.json -p 3333"
+    "server": "json-server -w db.json --middlewares ./node_modules/json-server-reset -p 3333"
   },
   "dependencies": {
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "json-server-reset": "^1.6.0"
   }
 }

@@ -28,3 +28,9 @@ Yoy can add more andpoints in db.json and use them in your app.
 axios.get('http://localhost:3333/your_andpoint_name')
 axios.post('http://localhost:3333/your_andpoint_name', data)
 ```
+
+If you want to clear the json before your post request you can use this post request:
+
+```TypeScript
+axios.post('http://localhost:3333/reset', { your_andpoint_name: [] })
+```
