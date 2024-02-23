@@ -22,6 +22,13 @@ Create your andpoint in db.json. Here is an example:
 
 Yoy can add more andpoints in db.json and use them in your app.
 
+```JSON
+{
+	"your_andpoint_name": [],
+	"your_second_andpoint_name": [],
+}
+```
+
 ## How to use
 
 ```TypeScript
