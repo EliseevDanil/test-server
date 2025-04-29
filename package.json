@@ -4,6 +4,6 @@
   },
   "dependencies": {
     "json-server": "^0.17.3",
-    "json-server-reset": "^1.6.0"
+    "json-server-reset": "^1.6.4"
   }
 }
